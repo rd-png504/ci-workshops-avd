@@ -70,7 +70,6 @@ underlay_routing_protocol: OSPF
 ##################################################################
 # WAN/Core Edge Links
 ##################################################################
-
 core_interfaces:
   p2p_links:
 
@@ -94,3 +93,5 @@ core_interfaces:
       interfaces: [ Ethernet8, Ethernet2 ]
       include_in_underlay_protocol: true
 
+
+      
